@@ -1,0 +1,23 @@
+/* Jost */
+@import url("https://fonts.googleapis.com/css2?family=Jost:wght@100;200;300;400;500;600;700;800;900&display=swap");
+/* Lato */
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap");
+/* Quicksand */
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap");
+/* Suprema */
+@font-face {
+  font-family: "Suprema";
+  src: url("./Fonts/suprema.otf");
+}
+.jost {
+  font-family: "Jost", sans-serif;
+}
+.lato {
+  font-family: "Lato", sans-serif;
+}
+.suprema {
+  font-family: "Suprema";
+}
+.quicksand {
+  font-family: "Quicksand", sans-serif;
+}

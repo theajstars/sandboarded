@@ -1,0 +1,29 @@
+:root {
+  --light-blue: #197bbd;
+  --dark-blue: #0f4264;
+  --light-white: #c7c7c7;
+  --primary: #404040;
+  --gold-yellow: #ffc145;
+  --faint: #aeaeae;
+}
+.light-blue {
+  color: var(--light-blue);
+}
+.dark-blue {
+  color: var(--dark-blue);
+}
+.light-white {
+  color: var(--light-white);
+}
+.primary {
+  color: #404040;
+}
+.yellow {
+  color: var(--gold-yellow);
+}
+.bg-yellow {
+  background: var(--gold-yellow);
+}
+.faint {
+  color: var(--faint);
+}
