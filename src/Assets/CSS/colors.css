@@ -5,6 +5,7 @@
   --primary: #404040;
   --gold-yellow: #ffc145;
   --faint: #aeaeae;
+  --fainter: #e3e3e3;
 }
 .light-blue {
   color: var(--light-blue);
@@ -26,4 +27,7 @@
 }
 .faint {
   color: var(--faint);
+}
+.fainter {
+  color: var(--fainter);
 }

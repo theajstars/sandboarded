@@ -19,16 +19,32 @@
   width: 100%;
 }
 .top-nav-content {
-  width: 200px;
+  width: 250px;
   justify-content: space-between;
+  align-items: center;
 }
 .nav-icon {
+  color: var(--fainter);
+  font-size: 20px;
+  cursor: pointer;
 }
 .profile-nav {
+  align-items: center;
+  justify-content: space-between;
+  width: 60%;
 }
 .profile-image {
+  background-color: var(--gold-yellow);
+  border-radius: 50%;
+  height: 35px;
+  width: 35px;
 }
 .profile-details {
 }
 .profile-name {
+  font-weight: 600;
+}
+.profile-type {
+  color: var(--fainter);
+  font-size: 14px;
 }

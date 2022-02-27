@@ -36,6 +36,9 @@ export default function Home() {
                 />
                 <div className="flex-column avatar-details">
                   <span className="profile-name suprema primary">Andrew</span>
+                  <span className="suprema profile profile-type">
+                    Admin account
+                  </span>
                 </div>
               </div>
             </div>
