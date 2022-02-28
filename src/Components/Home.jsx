@@ -2,13 +2,12 @@ import React, { useState } from "react";
 import { Container } from "@mui/material";
 import AvatarImage from "../Assets/IMG/avatar.png";
 import { motion } from "framer-motion";
-
+import CardSection from "./CardSection";
 import { Link } from "react-router-dom";
 import Nav from "./Nav";
 export default function Home() {
   return (
     <>
-      {/* <Container maxWidth="xl"> */}
       <div className="app-container flex-row">
         <Nav />
         <motion.div className="app-main">
@@ -43,9 +42,11 @@ export default function Home() {
               </div>
             </div>
           </div>
+          <br />
+          <br />
+          <CardSection />
         </motion.div>
       </div>
-      {/* </Container> */}
     </>
   );
 }

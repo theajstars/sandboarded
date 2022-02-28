@@ -1,6 +1,7 @@
 :root {
   --light-blue: #197bbd;
   --dark-blue: #0f4264;
+  --white: #fff;
   --light-white: #c7c7c7;
   --primary: #404040;
   --gold-yellow: #ffc145;
@@ -12,6 +13,9 @@
 }
 .dark-blue {
   color: var(--dark-blue);
+}
+.white {
+  color: var(--white);
 }
 .light-white {
   color: var(--light-white);
