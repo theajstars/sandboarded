@@ -4,6 +4,7 @@ export default function CardSection() {
   return (
     <div className="card-section-container flex-column">
       <span className="suprema card-section-header">Cards</span>
+      <br />
       <div className="card card-blue flex-column">
         <div className="card-top">
           <span className="quicksand white card-brand">Sandboarded</span>
@@ -26,6 +27,17 @@ export default function CardSection() {
             <span className="card-bottom-value">09/24</span>
           </div>
         </div>
+      </div>
+      <br />
+      <br />
+      <div className="payment-limit-container">
+        <div className="payment-limit bg-light-blue"></div>
+      </div>
+      <div className="flex-row limit-description">
+        <span className="faint suprema">Weekly payment limit</span>
+        <span className="lato primary limit-payment-amount">
+          $350.60 / $4000
+        </span>
       </div>
     </div>
   );

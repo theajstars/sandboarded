@@ -11,6 +11,9 @@
 .light-blue {
   color: var(--light-blue);
 }
+.bg-light-blue {
+  background-color: var(--light-blue);
+}
 .dark-blue {
   color: var(--dark-blue);
 }

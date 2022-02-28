@@ -10,7 +10,6 @@
 .card-section-header {
   font-weight: 900;
   font-size: 20px;
-  line-height: 40px;
 }
 .card {
   width: 320px;
@@ -27,7 +26,7 @@
   line-height: 12px;
 }
 .card-brand {
-  font-size: 16.5px;
+  font-size: 17.5px;
   font-weight: 700;
 }
 .card-account-type {
@@ -60,4 +59,26 @@
 }
 .card-bottom-value {
   font-size: 14.5px;
+}
+.payment-limit-container {
+  background: #f1f1f1;
+  border-radius: 13px;
+  width: 320px;
+  height: 10px;
+}
+
+.payment-limit {
+  width: 120px;
+  height: 10px;
+  border-radius: 13px;
+}
+.limit-description {
+  line-height: 35px;
+  box-sizing: border-box;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+.limit-payment-amount {
+  font-weight: 600;
 }
