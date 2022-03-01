@@ -82,3 +82,29 @@
 .limit-payment-amount {
   font-weight: 600;
 }
+.card-rule {
+  /* transform: rotate(90deg); */
+  margin: 0px 40px;
+  border: 1px solid #e8e8e8;
+}
+.card-figures {
+  justify-content: space-between;
+  align-items: flex-end;
+}
+.card-figure-row {
+  align-items: flex-end;
+}
+.card-balance {
+  font-weight: 600;
+  font-size: 21px;
+}
+.card-income,
+.card-outcome {
+  font-size: 14px;
+  font-weight: 600;
+}
+.card-figure-caption {
+  font-size: 14px;
+}
+.deactivate-card {
+}
