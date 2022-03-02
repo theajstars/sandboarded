@@ -11,6 +11,13 @@
   font-weight: 900;
   font-size: 20px;
 }
+.card-section {
+  height: 300px;
+}
+.card-section-contents {
+  height: 100%;
+  justify-content: space-between;
+}
 .card {
   width: 320px;
   height: 206px;
@@ -106,5 +113,7 @@
 .card-figure-caption {
   font-size: 14px;
 }
-.deactivate-card {
+.deactivate-card-container {
+  justify-content: flex-end;
+  align-items: flex-end;
 }

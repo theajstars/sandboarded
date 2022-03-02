@@ -6,8 +6,8 @@ export default function CardSection() {
     <div className="card-section-container flex-column">
       <span className="suprema card-section-header">Cards</span>
       <br />
-      <div className="flex-row" style={{ height: "100%" }}>
-        <div className="flex-column" style={{ height: "100%" }}>
+      <div className="flex-row card-section">
+        <div className="flex-column card-section-contents">
           <div className="card card-blue flex-column">
             <div className="card-top">
               <span className="quicksand white card-brand">Sandboarded</span>
@@ -63,8 +63,10 @@ export default function CardSection() {
             <span className="lato light-red card-outcome">$ 2850.75</span>
             <span className="suprema card-figure-caption faint">Outcome</span>
           </div>
-          <Switch />
-          <span className="suprema faint deactivate-card">Deactivate card</span>
+          <div className="flex-column deactivate-card-container">
+            <Switch />
+            <span className="suprema faint">Deactivate card</span>
+          </div>
         </div>
       </div>
       <br />

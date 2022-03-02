@@ -104,3 +104,13 @@
 .premium-upgrade:hover {
   background-color: #f5c86f;
 }
+
+/* Smaller screens */
+@media screen and (max-width: 1200px) {
+  .menu-icon {
+    top: 17px;
+  }
+  .side-nav {
+    padding-top: 60px !important;
+  }
+}
