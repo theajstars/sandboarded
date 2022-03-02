@@ -9,6 +9,7 @@
   --fainter: #e3e3e3;
   --light-green: #439a86;
   --light-red: #bb4430;
+  --grey: #696969;
 }
 .light-blue {
   color: var(--light-blue);
@@ -45,4 +46,10 @@
 }
 .light-red {
   color: var(--light-red);
+}
+.grey {
+  color: var(--grey);
+}
+.bg-white {
+  background-color: var(--white);
 }

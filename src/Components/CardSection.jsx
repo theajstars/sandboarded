@@ -35,6 +35,7 @@ export default function CardSection() {
             <div className="payment-limit-container">
               <div className="payment-limit bg-light-blue"></div>
             </div>
+            <br />
             <div className="flex-row limit-description">
               <span className="faint suprema">Weekly payment limit</span>
               <span className="lato primary limit-payment-amount">

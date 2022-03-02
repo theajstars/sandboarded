@@ -3,6 +3,7 @@
 @import url("./colors.css");
 @import url("./nav.css");
 @import url("./card.css");
+@import url("./transaction-history.css");
 .flex-row {
   display: flex;
   flex-direction: row;

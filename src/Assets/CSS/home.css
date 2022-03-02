@@ -27,6 +27,11 @@
   color: var(--fainter);
   font-size: 20px;
   cursor: pointer;
+  transition: 0.12s;
+}
+.nav-icon:hover {
+  color: var(--grey);
+  opacity: 0.8;
 }
 .profile-nav {
   align-items: center;
@@ -38,9 +43,9 @@
   border-radius: 50%;
   height: 35px;
   width: 35px;
+  cursor: pointer;
 }
-.profile-details {
-}
+
 .profile-name {
   font-weight: 600;
 }

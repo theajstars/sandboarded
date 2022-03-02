@@ -5,6 +5,7 @@ import { motion } from "framer-motion";
 import CardSection from "./CardSection";
 import { Link } from "react-router-dom";
 import Nav from "./Nav";
+import TransactionHistory from "./TransactionHistory";
 export default function Home() {
   return (
     <>
@@ -33,7 +34,7 @@ export default function Home() {
                   alt="avatar_aang"
                   className="profile-image"
                 />
-                <div className="flex-column avatar-details">
+                <div className="flex-column">
                   <span className="profile-name suprema primary">Andrew</span>
                   <span className="suprema profile profile-type">
                     Admin account
@@ -45,6 +46,7 @@ export default function Home() {
           <br />
           <br />
           <CardSection />
+          <TransactionHistory />
         </motion.div>
       </div>
     </>
