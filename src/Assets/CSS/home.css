@@ -14,42 +14,6 @@
   font-size: 17px;
   font-weight: 400;
 }
-.top-nav {
+.app-main-div {
   justify-content: space-between;
-  width: 100%;
-}
-.top-nav-content {
-  width: 250px;
-  justify-content: space-between;
-  align-items: center;
-}
-.nav-icon {
-  color: var(--fainter);
-  font-size: 20px;
-  cursor: pointer;
-  transition: 0.12s;
-}
-.nav-icon:hover {
-  color: var(--grey);
-  opacity: 0.8;
-}
-.profile-nav {
-  align-items: center;
-  justify-content: space-between;
-  width: 60%;
-}
-.profile-image {
-  background-color: var(--gold-yellow);
-  border-radius: 50%;
-  height: 35px;
-  width: 35px;
-  cursor: pointer;
-}
-
-.profile-name {
-  font-weight: 600;
-}
-.profile-type {
-  color: var(--fainter);
-  font-size: 14px;
 }
