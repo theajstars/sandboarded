@@ -51,3 +51,65 @@
 .goal-card-name {
   font-weight: 700;
 }
+.statistic {
+  margin: 15px 0px;
+}
+.statistic-icon {
+  width: 42.14px;
+  height: 43.44px;
+  left: 988.16px;
+  top: 616.95px;
+  box-shadow: 0px 16px 24px rgba(0, 0, 0, 0.06), 0px 2px 6px rgba(0, 0, 0, 0.04),
+    0px 0px 1px rgba(0, 0, 0, 0.04);
+  border-radius: 3px;
+  align-items: center;
+  justify-content: center;
+}
+.statistic-icon-1 {
+  background: #ffeada;
+  color: #f8964c;
+}
+.statistic-icon-2 {
+  background: #ddf9e4;
+  color: #22a447;
+}
+.statistic-icon-3 {
+  background: #e4f0ff;
+  color: #70a6e8;
+}
+.statistic-progress-container {
+  width: -webkit-fill-available;
+  box-sizing: border-box;
+  margin: 5px 10px;
+}
+.statistic-progress-bar {
+  background: #f1f1f1;
+  border-radius: 13.617px;
+  height: 10px;
+  width: -webkit-fill-available;
+}
+.statistic-progress-bar-color {
+  border-radius: 13.617px;
+  height: 10px;
+}
+.statistic-progress-bar-color-1 {
+  background: linear-gradient(270deg, #fcae73 0%, #f79042 99.18%);
+  width: 52%;
+}
+.statistic-progress-bar-color-2 {
+  background: linear-gradient(90deg, #209d43 0%, #2bc255 100%);
+  width: 21%;
+}
+.statistic-progress-bar-color-3 {
+  background: #70a6e8;
+  width: 74%;
+}
+.statistic-name {
+  font-size: 14px;
+  line-height: 30px;
+  font-weight: 600;
+}
+.statistic-value {
+  font-weight: 600;
+  font-size: 20px;
+}
