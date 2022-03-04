@@ -1,0 +1,22 @@
+{
+  "UserGoals": [
+    {
+      "amount": 550,
+      "date": "12/20/20",
+      "icon": "fas fa-mountain",
+      "name": "Holidays"
+    },
+    {
+      "amount": 200,
+      "date": "10/20/2022",
+      "icon": "fad fa-brush",
+      "name": "Renovation"
+    },
+    {
+      "amount": 820,
+      "date": "12/25/2023",
+      "icon": "fas fa-gamepad",
+      "name": "Xbox"
+    }
+  ]
+}
