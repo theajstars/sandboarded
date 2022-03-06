@@ -35,7 +35,9 @@ tbody tr {
   line-height: 50px;
   border-bottom: 1px solid #ececec;
 }
-
+tbody tr:last-child {
+  border: none !important;
+}
 .transaction-receiver {
   font-weight: 900;
   align-items: center;

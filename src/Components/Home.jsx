@@ -7,6 +7,7 @@ import Nav from "./Nav";
 import TransactionHistory from "./TransactionHistory";
 import TopNav from "./TopNav";
 import GoalStats from "./GoalStats";
+import NewTransaction from "./NewTransaction";
 export default function Home() {
   return (
     <>
@@ -23,6 +24,7 @@ export default function Home() {
             </div>
             <div className="flex-column app-main-right">
               <GoalStats />
+              <NewTransaction />
             </div>
           </div>
         </motion.div>

@@ -6,6 +6,7 @@
 @import url("./card.css");
 @import url("./transaction-history.css");
 @import url("./goals-stats.css");
+@import url("./new-transaction.css");
 .flex-row {
   display: flex;
   flex-direction: row;
