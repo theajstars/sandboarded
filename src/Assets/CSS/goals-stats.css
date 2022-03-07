@@ -12,7 +12,8 @@
 }
 .goal-cards {
   justify-content: space-between;
-  min-width: 520px;
+  box-sizing: border-box;
+  width: 90%;
 }
 .goal-card {
   width: 160px;

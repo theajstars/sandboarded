@@ -3,12 +3,13 @@
     0px 0px 1px rgba(0, 0, 0, 0.04);
   border-radius: 19.0044px;
   height: 200px;
-  padding: 20px 5px;
+  padding: 20px 15px;
   box-sizing: border-box;
 }
 .transaction-people {
   justify-content: space-between;
-  width: 340px;
+  width: 400px;
+  box-sizing: border-box;
 }
 .transaction-person {
   align-items: center;
@@ -40,4 +41,27 @@
 }
 .tp-image-5 {
   content: url("../IMG/TransactionPeople/TP5.png");
+}
+.add {
+  align-items: center;
+  justify-content: flex-end !important;
+}
+.add .transaction-person-name {
+  margin-top: 10px;
+}
+.get-loan {
+  background: url(../IMG/GetLoan.svg);
+  background-repeat: no-repeat;
+  width: 180px;
+  height: 200px;
+  box-sizing: border-box;
+  background-size: cover;
+  border-radius: 19px;
+  padding: 15px;
+  margin-left: 30px;
+  align-items: flex-end;
+}
+.get-loan-header {
+  font-weight: 900;
+  font-size: 22px;
 }

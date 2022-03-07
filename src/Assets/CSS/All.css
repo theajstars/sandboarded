@@ -22,3 +22,6 @@
 .pointer {
   cursor: pointer;
 }
+.app-main-right {
+  margin-left: 30px;
+}
