@@ -49,7 +49,7 @@
   justify-content: space-between;
   height: 100%;
   box-sizing: border-box;
-  padding: 40px 0px;
+  padding: 40px 0px 10px;
   align-items: center;
 }
 .side-nav-items {
@@ -78,9 +78,8 @@
 .nav-bottom {
   align-items: center;
   justify-content: space-between;
-  height: 190px;
+  height: 170px;
   box-sizing: border-box;
-  padding-bottom: 20px;
 }
 .nav-bottom img {
   width: 70px;
@@ -103,14 +102,4 @@
 }
 .premium-upgrade:hover {
   background-color: #f5c86f;
-}
-
-/* Smaller screens */
-@media screen and (max-width: 1200px) {
-  .menu-icon {
-    top: 17px;
-  }
-  .side-nav {
-    padding-top: 60px !important;
-  }
 }

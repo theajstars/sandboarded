@@ -24,6 +24,8 @@ export default function Home() {
             </div>
             <div className="flex-column app-main-right">
               <GoalStats />
+              <br />
+              <br />
               <NewTransaction />
             </div>
           </div>

@@ -14,6 +14,7 @@ export default function GoalStats() {
           </span>
         </span>
         <br />
+        <br />
         <div className="flex-row goal-cards">
           {UserGoals.map((goal, index) => {
             return (
@@ -41,6 +42,8 @@ export default function GoalStats() {
           })}
         </div>
       </div>
+      <br />
+      <br />
       <div className="statistics-section">
         <span className="card-section-header suprema">Outcome Statistics</span>
         <br />
