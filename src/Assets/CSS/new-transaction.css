@@ -57,11 +57,60 @@
   box-sizing: border-box;
   background-size: cover;
   border-radius: 19px;
-  padding: 15px;
+  padding: 10px;
   margin-left: 30px;
   align-items: flex-end;
 }
 .get-loan-header {
   font-weight: 900;
-  font-size: 22px;
+  font-size: 21px;
+}
+.transfer-container {
+  justify-content: space-between;
+}
+.new-transaction-amount-container {
+  border: 1px solid #197bbd;
+  box-sizing: border-box;
+  border-radius: 8px;
+  width: 180px;
+  height: 40px;
+  align-items: center;
+  justify-content: space-between;
+}
+.new-transaction-amount-placeholder {
+  text-align: center;
+  width: 22px;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+  color: #c7c7c7;
+  font-size: 20px;
+}
+.new-transaction-amount {
+  padding-left: 10px;
+  color: var(--primary) !important;
+  font-weight: 600;
+}
+.new-transaction-amount,
+.new-transaction-amount::placeholder {
+  font-size: 20px;
+  border: none;
+  outline: none;
+  height: 38px;
+  width: 130px;
+  box-sizing: border-box;
+  color: #c7c7c7;
+  border-radius: 8px;
+}
+.send-transfer {
+  width: 180px;
+  height: 40px;
+  border-radius: 13.617px;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  font-size: 14px;
+}
+.send-transfer:hover {
+  opacity: 0.9;
 }
